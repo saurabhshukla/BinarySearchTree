@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic BST Implementation</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h3>Binary Search Tree Implementation Testing</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box col-md-6 col-sm-6 col-xs-12">
+                <input type="text" id="txtValueToInsert" placeholder="Number to insert" value="5, 3, 1, 8, 6, 7, 9, 4, 0" />
+                <input type="button" id="insert" value="Insert" />
+            </div>
+            <div class="box col-md-6 col-sm-6 col-xs-12">
+                <input type="text" id="txtValueToSearch" placeholder="Number to search" />
+                <input type="button" id="search" value="Search" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="result col-md-6 col-sm-6 col-xs-12">
+                <h5>Binary Search Tree Insertion Result</h5>
+                <div id="insertResult" class="result"></div>
+            </div>
+            <div class="result col-md-6 col-sm-6 col-xs-12">
+                <h5>Binary Search Tree Search Result</h5>
+                <div id="searchResult" class="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts are loaded at the last. -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/basicBinarySearchTree.js"></script>
+    <script type="text/javascript" src="testBasicBST.js"></script>
+</body>
+</html>
